@@ -4,11 +4,6 @@
 \name{ElectricBill}
 \alias{ElectricBill}
 \title{Electric Bill}
-\format{A data frame with 37 observations on the following variables.
-  \itemize{
-    \item{\code{Month}} {since January 2000}
-    \item{\code{ElecBill}} {price of ElecBill in US dollars}
-  }}
 \source{
 Subset of Utilities in the \code{mosaic} package.
 }
@@ -16,12 +11,15 @@ Subset of Utilities in the \code{mosaic} package.
 data(ElectricBill)
 }
 \description{
-A dataset containing the electric bill (in US dollars) of a single-family home in Minnesota from
+A data set containing the electric bill (in US dollars) of a single-family home in Minnesota from
 2000-2003
 }
 \details{
-This dataset contains the the electric bill (in US dollars) of a single-family home in Minnesota from
-2000-2003 as a function of the month.
+A data frame with 37 observations on the following variables.
+  \itemize{
+    \item{\code{Month}} (since January 2000)
+    \item{\code{ElecBill}} (in US dollars)
+  }
 }
 \examples{
 data(ElectricBill)

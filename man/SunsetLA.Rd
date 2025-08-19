@@ -4,11 +4,6 @@
 \name{SunsetLA}
 \alias{SunsetLA}
 \title{Sunset in Los Angeles, CA}
-\format{A data frame with 48 observations on the following variables.
-  \itemize{
-    \item{\code{Month}} {from January 2010}
-    \item{\code{Minutes}} {minutes after 4 p.m.}
-  }}
 \source{
 Number of minutes after 4 p.m. until sunset in Los Angeles, California, adjusted for
 Daylight Savings Time, from January 2010 (month 1) through December 2013 (month 48)
@@ -18,14 +13,16 @@ from “Sunrise and sunset times in Los Angeles, December 2011.” Accessed on J
 data(SunsetLA)
 }
 \description{
-A dataset containing the number of minutes after 4 p.m. until sunset in Los Angeles,
+A data set containing the number of minutes after 4 p.m. until sunset in Los Angeles,
 California, adjusted for Daylight Savings time, from January 2010 (month 1) through
 December 2013 (month 48).
 }
 \details{
-This dataset contains the number of minutes after 4 p.m. until sunset in Los Angeles,
-California, adjusted for Daylight Savings time, from January 2010 (month 1) through
-December 2013 (month 48).
+A data frame with 48 observations on the following variables.
+  \itemize{
+    \item{\code{Month}} (from January 2010)
+    \item{\code{Minutes}} (minutes after 4 p.m.)
+  }
 }
 \examples{
 data(SunsetLA)

@@ -4,11 +4,6 @@
 \name{DJIACloseQuarterly}
 \alias{DJIACloseQuarterly}
 \title{Quarterly Closing Value of Dow Jones Industrial Average}
-\format{A data frame with 320 observations on the following variables.
-  \itemize{
-    \item{\code{Quarter}} {since March 31, 1935}
-    \item{\code{Close}} {Closing value of DJIA}
-  }}
 \source{
 Closing stock market value of the Dow Jones Industrial Average at the end of each quarter from
 March 31, 1930 through December 31, 2014 from “^DJI — Nasdaq Composite — U.S. — Stooq.”
@@ -18,12 +13,15 @@ Accessed on July 7, 2015.
 data(DJIACloseQuarterly)
 }
 \description{
-A dataset containing the quarterly closing value of the Dow Jones Industrial Average (DJIA) from
+A data set containing the quarterly closing value of the Dow Jones Industrial Average (DJIA) from
 March 31, 1935 to December 31, 2014.
 }
 \details{
-This dataset contains the quarterly closing value of the Dow Jones Industrial Average (DJIA) from
-March 31, 1935 to December 31, 2014.
+A data frame with 320 observations on the following variables.
+  \itemize{
+    \item{\code{Quarter}} (since March 31, 1935)
+    \item{\code{Close}} (Closing value of DJIA)
+  }
 }
 \examples{
 data(DJIACloseQuarterly)

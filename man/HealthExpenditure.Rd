@@ -4,11 +4,6 @@
 \name{HealthExpenditure}
 \alias{HealthExpenditure}
 \title{Health Expenditures as a Percentage of U.S. GDP}
-\format{A data frame with 18 observations on the following variables.
-  \itemize{
-    \item{\code{Year}} {}
-    \item{\code{PercentGDP}} {health expenditures as a function of U.S. GDP}
-  }}
 \source{
 Total U.S. health expenditures as a percentage of GDP from the World Bank. Accessed on
 July 10, 2014.
@@ -17,12 +12,15 @@ July 10, 2014.
 data(HealthExpenditure)
 }
 \description{
-A dataset containing the World Bank's data for total U.S. health expenditures as a percentage
+A data set containing the World Bank's data for total U.S. health expenditures as a percentage
 of the U.S gross domestic product (GDP) from 1995 to 2012.
 }
 \details{
-This dataset contains the World Bank's data for total U.S. health expenditures as a percentage
-of the U.S gross domestic product (GDP) from 1995 to 2012.
+A data frame with 18 observations on the following variables.
+  \itemize{
+    \item{\code{Year}}
+    \item{\code{PercentGDP}}
+  }
 }
 \examples{
 data(HealthExpenditure)

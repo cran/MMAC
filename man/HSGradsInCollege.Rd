@@ -4,11 +4,6 @@
 \name{HSGradsInCollege}
 \alias{HSGradsInCollege}
 \title{High School Graduates in College}
-\format{A data frame with 41 observations on the following variables.
-  \itemize{
-    \item{\code{Year}} {}
-    \item{\code{Percent}} {of high schol graduates}
-  }}
 \source{
 Percent of high school graduates to enroll in a two-year or four-year college from National Center
 for Education Statistics. Accessed on July 2, 2014.
@@ -17,12 +12,15 @@ for Education Statistics. Accessed on July 2, 2014.
 data(HSGradsInCollege)
 }
 \description{
-A dataset containing the percent of each year’s high school
+A data set containing the percent of each year’s high school
 graduates to enroll in either a two-year or four-year college from 1972 to 2012.
 }
 \details{
-This dataset contains the percent of each year’s high school graduates to enroll in either
-a two-year or four-year college from 1972 to 2012
+A data frame with 41 observations on the following variables.
+  \itemize{
+    \item{\code{Year}}
+    \item{\code{Percent}} (of high schol graduates)
+  }
 }
 \examples{
 data(HSGradsInCollege)

@@ -4,11 +4,6 @@
 \name{APCalculus2}
 \alias{APCalculus2}
 \title{Number of Students taking the AP Calculus Exam}
-\format{A data frame with 38 observations on the following variables.
-  \itemize{
-    \item{\code{Year}} {year}
-    \item{\code{Exams}} {number of AP exams taken in associated year}
-  }}
 \source{
 Personal correspondence with Stephen M. Kokoska.
 }
@@ -16,10 +11,14 @@ Personal correspondence with Stephen M. Kokoska.
 data(APCalculus2)
 }
 \description{
-A subset of the dataset \code{APCalculus} containing the number of students who have taken the AP Calculus exam from 1955 to 2015.
+A subset of the data set \code{APCalculus} containing the number of students who have taken the AP Calculus exam from 1955 to 2015.
 }
 \details{
-A subset of the MMAC dataset APCalculus containing only the data from 1973 to 2010.
+A data frame with 38 observations on the following variables.
+  \itemize{
+    \item{\code{Year}}
+    \item{\code{Exams}} (number of AP exams taken in associated year)
+  }
 }
 \examples{
 data(APCalculus2)

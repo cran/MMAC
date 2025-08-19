@@ -4,11 +4,6 @@
 \name{TemperaturesDanville}
 \alias{TemperaturesDanville}
 \title{Temperatures in Danville, KY}
-\format{A data frame with 60 observations on the following variables.
-  \itemize{
-    \item{\code{Month}} {from January 2006}
-    \item{\code{Temperature}} {in degrees Farenheit}
-  }}
 \source{
 Average maximum temperature in Danville, Kentucky at the beginning of each month since January
 2006 from “noaa.gov.” Accessed on June 25, 2014
@@ -17,12 +12,15 @@ Average maximum temperature in Danville, Kentucky at the beginning of each month
 data(TemperaturesDanville)
 }
 \description{
-A dataset containing the average maximum temperature in Danville, Kentucky at the beginning
+A data set containing the average maximum temperature in Danville, Kentucky at the beginning
 of each month since January 2006
 }
 \details{
-This dataset contains the average maximum temperature in Danville, Kentucky at the beginning
-of each month since January 2006
+A data frame with 60 observations on the following variables.
+  \itemize{
+    \item{\code{Month}} (from January 2006)
+    \item{\code{Temperature}} (in degrees Fahrenheit)
+  }
 }
 \examples{
 data(TemperaturesDanville)

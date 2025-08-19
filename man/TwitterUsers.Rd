@@ -4,11 +4,6 @@
 \name{TwitterUsers}
 \alias{TwitterUsers}
 \title{Twitter Users}
-\format{A data frame with 17 observations on the following variables.
-  \itemize{
-    \item{\code{Year}} {since 2000}
-    \item{\code{Users}} {number of users in millions of people}
-  }}
 \source{
 Number of monthly active Twitter users worldwide from 1st quarter 2010
 to 1st quarter 2016 (in millions) from “Twitter : number of monthly active users 2010–2016 |
@@ -18,12 +13,15 @@ Statista.” Accessed on June 9, 2016.
 data(TwitterUsers)
 }
 \description{
-A dataset containing the number of monthly active Twitter users worldwide by quarter
+A data set containing the number of monthly active Twitter users worldwide by quarter
 (e.g., 10.25 represents April to June 2010) in millions of people.
 }
 \details{
-This dataset contains the number of monthly active Twitter users worldwide by quarter
-(e.g., 10.25 represents April to June 2010) in millions of people.
+A data frame with 17 observations on the following variables.
+  \itemize{
+    \item{\code{Year}} (since 2000)
+    \item{\code{Users}} (in millions)
+  }
 }
 \examples{
 data(TwitterUsers)

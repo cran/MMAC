@@ -4,11 +4,6 @@
 \name{FacebookUsers}
 \alias{FacebookUsers}
 \title{Facebook Users}
-\format{A data frame with 38 observations on the following variables.
-  \itemize{
-    \item{\code{Months}} {since January 2009}
-    \item{\code{Users}} {in millions of people}
-  }}
 \source{
 Number of Facebook users in millions from 2009 through 2012 from “Number of active users at Facebook
 over the years — Yahoo News” and “Facebook: number of active users 2015 | Statistics.”
@@ -18,12 +13,15 @@ Accessed on June 22, 2015.
 data(FacebookUsers)
 }
 \description{
-A dataset containing the number of Facebook users in millions of people from 2009
+A data set containing the number of Facebook users in millions of people from 2009
 through 2012.
 }
 \details{
-This dataset contains the number of Facebook users in millions of people from 2009
-through 2012.
+A data frame with 38 observations on the following variables.
+  \itemize{
+    \item{\code{Months}} (since January 2009)
+    \item{\code{Users}} (in millions)
+  }
 }
 \examples{
 data(FacebookUsers)

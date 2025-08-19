@@ -4,11 +4,6 @@
 \name{USRetailTax}
 \alias{USRetailTax}
 \title{US Retail Tax}
-\format{A data frame with 7 observations on the following variables.
-  \itemize{
-    \item{\code{Year}} {}
-    \item{\code{Tax}} {US retail tax in millions of dollars}
-  }}
 \source{
 Annual total retail sales taxes collected in the United States in each year from
 “Monthly & Annual Retail Trade, Main Page — U.S. Census Bureau.” Accessed on July 14, 2014.
@@ -17,10 +12,14 @@ Annual total retail sales taxes collected in the United States in each year from
 data(USRetailTax)
 }
 \description{
-A dataset containing U.S. retail tax in millions of dollars each year from 2005 through 2011.
+A data set containing U.S. retail tax in millions of dollars each year from 2005 through 2011.
 }
 \details{
-This dataset contains U.S. retail tax in millions of dollars each year from 2005 through 2011.
+A data frame with 7 observations on the following variables.
+  \itemize{
+    \item{\code{Year}}
+    \item{\code{Tax}} (in millions of dollars)
+  }
 }
 \examples{
 data(USRetailTax)

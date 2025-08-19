@@ -4,11 +4,6 @@
 \name{NetherlandsPopulation}
 \alias{NetherlandsPopulation}
 \title{Population of the Netherlands}
-\format{A data frame with 21 observations on the following variables.
-  \itemize{
-    \item{\code{Year}} {}
-    \item{\code{Population}} {of Netherlands (in millions of people)}
-  }}
 \source{
 Population of the Netherlands from “The NETHERLANDS : country populations.”
 Accessed on July 11, 2014.
@@ -17,12 +12,15 @@ Accessed on July 11, 2014.
 data(NetherlandsPopulation)
 }
 \description{
-A dataset containing the population of the Netherlands measured in millions of people
+A data set containing the population of the Netherlands measured in millions of people
 at the beginning of each decade since 1700.
 }
 \details{
-This dataset contains the population of the Netherlands measured in millions of people
-at the beginning of each decade since 1700.
+A data frame with 21 observations on the following variables.
+  \itemize{
+    \item{\code{Year}}
+    \item{\code{Population}} (in millions of people)
+  }
 }
 \examples{
 data(NetherlandsPopulation)

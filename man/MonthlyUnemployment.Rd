@@ -4,11 +4,6 @@
 \name{MonthlyUnemployment}
 \alias{MonthlyUnemployment}
 \title{US Unemployment Rate}
-\format{A data frame with 60 observations on the following variables.
-  \itemize{
-    \item{\code{Months}} {since January 2010}
-    \item{\code{Rate}} {monthly unemployment rate}
-  }}
 \source{
 U.S. monthly unemployment rate from January 2010 to December 2014 from “Bureau of Labor Statistics Data.”
 Accessed on June 22, 2015.
@@ -17,10 +12,14 @@ Accessed on June 22, 2015.
 data(MonthlyUnemployment)
 }
 \description{
-A dataset containing the United States monthly unemployment rate from January 2010 to December 2014.
+A data set containing the United States monthly unemployment rate from January 2010 to December 2014.
 }
 \details{
-This dataset contains the United States monthly unemployment rate from January 2010 to December 2014.
+A data frame with 60 observations on the following variables.
+  \itemize{
+    \item{\code{Months}} (since January 2010)
+    \item{\code{Rate}} (monthly unemployment rate)
+  }
 }
 \examples{
 data(MonthlyUnemployment)

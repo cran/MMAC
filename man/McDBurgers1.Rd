@@ -4,11 +4,6 @@
 \name{McDBurgers1}
 \alias{McDBurgers1}
 \title{Burgers Sold by McDonalds}
-\format{A data frame with 5 observations on the following variables.
-  \itemize{
-    \item{\code{Year}} {}
-    \item{\code{Burgers}} {number of burgers (in billions)}
-  }}
 \source{
 The total number of burgers sold by McDonald’s in billions as of each year from “Over How
 Many Billion Served.” Accessed on July 3, 2014.
@@ -17,10 +12,14 @@ Many Billion Served.” Accessed on July 3, 2014.
 data(McDBurgers1)
 }
 \description{
-A subset of the dataset containing the number of burgers (in billions) sold by McDonald’s since 1955.
+A subset of the data set containing the number of burgers (in billions) sold by McDonald’s since 1955.
 }
 \details{
-This dataset contains the number of burgers (in billions) sold by McDonald’s since 1955.
+A data frame with 5 observations on the following variables.
+  \itemize{
+    \item{\code{Year}}
+    \item{\code{Burgers}} (in billions)
+  }
 }
 \examples{
 data(McDBurgers1)

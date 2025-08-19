@@ -4,11 +4,6 @@
 \name{LifeExpectancyPhysicians}
 \alias{LifeExpectancyPhysicians}
 \title{Life Expectancy in Different Countries}
-\format{A data frame with 175 observations on the following variables.
-  \itemize{
-    \item{\code{LifeExpectancy}} {life expectancy in years}
-    \item{\code{Physicians}} {number of physicians per 1000 people}
-  }}
 \source{
 Number of physicians per 1000 people as a function of average life expectancy in different
 countries in 2010 from “Physicians (per 1,000 people) | Data | Table.”
@@ -17,12 +12,15 @@ countries in 2010 from “Physicians (per 1,000 people) | Data | Table.”
 data(LifeExpectancyPhysicians)
 }
 \description{
-A dataset containing the number of physicians per 1000 people as a function of average
+A data set containing the number of physicians per 1000 people as a function of average
 life expectancy in different countries in 2010.
 }
 \details{
-This dataset contains the number of physicians per 1000 people as a function of average
-life expectancy in different countries in 2010.
+A data frame with 175 observations on the following variables.
+  \itemize{
+    \item{\code{LifeExpectancy}} (life expectancy in years)
+    \item{\code{Physicians}} (number of physicians per 1000 people)
+  }
 }
 \examples{
 data(LifeExpectancyPhysicians)

@@ -4,11 +4,6 @@
 \name{YellowCards}
 \alias{YellowCards}
 \title{Yellow Cards in World Cup}
-\format{A data frame with 11 observations on the following variables.
-  \itemize{
-    \item{\code{Year}} {}
-    \item{\code{Cards}} {Number of yellow cards given}
-  }}
 \source{
 Number of yellow cards given per men’s World Cup tournament from “Planet World Cup.”
 Accessed on July 16, 2014.
@@ -17,12 +12,15 @@ Accessed on July 16, 2014.
 data(YellowCards)
 }
 \description{
-A dataset containing the number of yellow cards given per men’s World Cup tournament from
+A data set containing the number of yellow cards given per men’s World Cup tournament from
 1970 to 2010.
 }
 \details{
-This dataset contains the number of yellow cards given per men’s World Cup tournament
-from 1970 to 2010.
+A data frame with 11 observations on the following variables.
+  \itemize{
+    \item{\code{Year}}
+    \item{\code{Cards}} Number of yellow cards given
+  }
 }
 \examples{
 data(YellowCards)

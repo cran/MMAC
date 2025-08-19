@@ -4,11 +4,6 @@
 \name{StudentDebt2}
 \alias{StudentDebt2}
 \title{Average Student Debt}
-\format{A data frame with 15 observations on the following variables.
-  \itemize{
-    \item{\code{Year}} {}
-    \item{\code{Debt}} {Average cummulative debt}
-  }}
 \source{
 Average debt load in 2013 dollars of bachelor’s degree recipients attending U.S. public
 colleges and universities who borrowed money to finance their education from “Average Cumulative
@@ -19,12 +14,15 @@ in Higher Education.” Accessed on July 5, 2015.
 data(StudentDebt2)
 }
 \description{
-A dataset containing the average cumulative debt of bachelor’s degree students enrolled in
+A data set containing the average cumulative debt of bachelor’s degree students enrolled in
 public colleges and universities.
 }
 \details{
-This dataset contains the average cumulative debt of bachelor’s degree students enrolled in
-public colleges and universities.
+A data frame with 15 observations on the following variables.
+  \itemize{
+    \item{\code{Year}}
+    \item{\code{Debt}} (Average cumulative debt)
+  }
 }
 \examples{
 data(StudentDebt2)

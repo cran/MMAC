@@ -4,11 +4,6 @@
 \name{Mortgage30YrMonthly1}
 \alias{Mortgage30YrMonthly1}
 \title{30 Year Annual Mortgage Rates}
-\format{A data frame with 265 observations on the following variables.
-  \itemize{
-    \item{\code{Month}} {}
-    \item{\code{Rate}} {average interest rate on conventional 30-year mortgage}
-  }}
 \source{
 Average interest rate for conventional 30-year mortgages each year from 1981 to 2012 from
 “Primary Mortgage Market Survey Archives — 30 Year Fixed Rate Mortgages — Freddie Mac.”
@@ -18,11 +13,14 @@ Accessed on July 7, 2015.
 data(Mortgage30YrMonthly1)
 }
 \description{
-A subset of the dataset containing the interest rate on a 30-year fixed-rate conventional home mortgage.
+A subset of the data set containing the interest rate on a 30-year fixed-rate conventional home mortgage.
 }
 \details{
-This dataset contains the average interest rate for conventional 30-year mortgages each year
-from 1981 to 2012.
+A data frame with 265 observations on the following variables.
+  \itemize{
+    \item{\code{Month}}
+    \item{\code{Rate}} (average interest rate on conventional 30-year mortgage)
+  }
 }
 \examples{
 data(Mortgage30YrMonthly1)

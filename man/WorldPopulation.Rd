@@ -4,11 +4,6 @@
 \name{WorldPopulation}
 \alias{WorldPopulation}
 \title{World Population}
-\format{A data frame with 14 observations on the following variables.
-  \itemize{
-    \item{\code{Year}} {}
-    \item{\code{People}} {world population in billions of people}
-  }}
 \source{
 Estimated world population data from 1950 to 2015 from “International Programs — Total
 Mid-Year Population for the World: 1950–2050 — U.S. Census Bureau.” Accessed on June 16, 2014.
@@ -17,10 +12,14 @@ Mid-Year Population for the World: 1950–2050 — U.S. Census Bureau.” Access
 data(WorldPopulation)
 }
 \description{
-A dataset containing the total midyear population for the world from 1950 to 2015.
+A data set containing the total midyear population for the world from 1950 to 2015.
 }
 \details{
-This dataset contains the total midyear population for the world from 1950 to 2015.
+A data frame with 14 observations on the following variables.
+  \itemize{
+    \item{\code{Year}}
+    \item{\code{People}} (in billions)
+  }
 }
 \examples{
 data(WorldPopulation)

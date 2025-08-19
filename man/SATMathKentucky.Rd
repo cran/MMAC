@@ -4,11 +4,6 @@
 \name{SATMathKentucky}
 \alias{SATMathKentucky}
 \title{SAT Math Scores in Kentucky}
-\format{A data frame with 34 observations on the following variables.
-  \itemize{
-    \item{\code{Year}} {}
-    \item{\code{Score}} {Average SAT math score in Kentucky}
-  }}
 \source{
 Average SAT math score in Kentucky each year from 1980 to 2013 from College Board’s 2013 SAT
 State Profile Report for Kentucky. Accessed on July 16, 2014.
@@ -17,10 +12,14 @@ State Profile Report for Kentucky. Accessed on July 16, 2014.
 data(SATMathKentucky)
 }
 \description{
-A dataset containing the average SAT math score in Kentucky each year from 1980 to 2013.
+A data set containing the average SAT math score in Kentucky each year from 1980 to 2013.
 }
 \details{
-This dataset contains the average SAT math score in Kentucky each year from 1980 to 2013.
+A data frame with 34 observations on the following variables.
+  \itemize{
+    \item{\code{Year}}
+    \item{\code{Score}} (Average SAT math score in Kentucky)
+  }
 }
 \examples{
 data(SATMathKentucky)

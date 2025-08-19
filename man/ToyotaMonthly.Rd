@@ -4,11 +4,6 @@
 \name{ToyotaMonthly}
 \alias{ToyotaMonthly}
 \title{Toyota Stock Prices}
-\format{A data frame with 60 observations on the following variables.
-  \itemize{
-    \item{\code{Month}} {from January 1982}
-    \item{\code{Value}} {in US dollars}
-  }}
 \source{
 Toyota Motors Corporation (TM) stock market value in U.S. dollars from “Yahoo Finance |
 TM Historical Prices.” Accessed on August 13, 2016.
@@ -17,10 +12,14 @@ TM Historical Prices.” Accessed on August 13, 2016.
 data(ToyotaMonthly)
 }
 \description{
-A dataset containing the average monthly stock price of Toyota from 1982 to 1998.
+A data set containing the average monthly stock price of Toyota from 1982 to 1998.
 }
 \details{
-This dataset contains the average monthly stock price of Toyota from 1982 to 1998.
+A data frame with 60 observations on the following variables.
+  \itemize{
+    \item{\code{Month}} (from January 1982)
+    \item{\code{Value}} (in US dollars)
+  }
 }
 \examples{
 data(ToyotaMonthly)

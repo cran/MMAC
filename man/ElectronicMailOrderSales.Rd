@@ -4,11 +4,6 @@
 \name{ElectronicMailOrderSales}
 \alias{ElectronicMailOrderSales}
 \title{US Electronic and Mail Order Sales}
-\format{A data frame with 14 observations on the following variables.
-  \itemize{
-    \item{\code{Year}}
-    \item{\code{Sales}} {in billions of US dollars}
-  }}
 \source{
 Total U.S. electronic and mail-order shopping sales in millions of
 dollars each year from 1999 to 2012 from “Monthly & Annual Retail Trade,
@@ -18,12 +13,15 @@ Main Page — US Census Bureau.” Accessed on July 16, 2014.
 data(ElectronicMailOrderSales)
 }
 \description{
-A dataset containing the he total U.S. electronic and mail-order
+A data set containing the he total U.S. electronic and mail-order
 shopping sales in billions of dollars each year from 1999 to 2012.
 }
 \details{
-This dataset contains the he total U.S. electronic and mail-order
-shopping sales in billions of dollars each year from 1999 to 2012
+A data frame with 14 observations on the following variables.
+  \itemize{
+    \item{\code{Year}}
+    \item{\code{Sales}} (in billions of US dollars)
+  }
 }
 \examples{
 data(ElectronicMailOrderSales)

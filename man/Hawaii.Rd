@@ -4,11 +4,6 @@
 \name{Hawaii}
 \alias{Hawaii}
 \title{Tidal Depths in Pearl Harbor, Hawaii}
-\format{A data frame with 31 observations on the following variables.
-  \itemize{
-    \item{\code{time}} {in hours}
-    \item{\code{water}} {tide depth in feet relative to the MLLW}
-  }}
 \source{
 Tidal measurements in Pearl Harbor, Hawaii based on data sets from Project Mosaic. Accessed on
 August 19, 2015.
@@ -17,12 +12,15 @@ August 19, 2015.
 data(Hawaii)
 }
 \description{
-A dataset containing the depth of the tide in feet relative to the MLLW (mean lower low water mark)
+A data set containing the depth of the tide in feet relative to the MLLW (mean lower low water mark)
 in Pearl Harbor, Hawaii as a function of time measured in hours Hr.
 }
 \details{
-This dataset contains the depth of the tide in feet relative to the MLLW (mean lower low water
-mark) in Pearl Harbor, Hawaii as a function of time measured in hours Hr.
+A data frame with 31 observations on the following variables.
+  \itemize{
+    \item{\code{time}} (in hours)
+    \item{\code{water}} (tide depth in feet relative to the MLLW)
+  }
 }
 \examples{
 data(Hawaii)

@@ -4,11 +4,6 @@
 \name{AAPLStockMonthly}
 \alias{AAPLStockMonthly}
 \title{Closing Stock Price of Apple Inc.}
-\format{A data frame with 409 observations on the following variables.
-  \itemize{
-    \item{\code{Month}} {months since January 1981}
-    \item{\code{AdjClose}} {adjusted closing price of Apple Inc. stock}
-  }}
 \source{
 Yahoo Finance
 }
@@ -16,11 +11,14 @@ Yahoo Finance
 data(AAPLStockMonthly)
 }
 \description{
-A dataset containing the closing price of Apple Inc. Stock, from January 1981 to December 2014
+A data set containing the closing price of Apple Inc. Stock, from January 1981 to December 2014
 }
 \details{
-closing price of Apple Inc. stock in U.S. dollars adjusted for dividends and splits at the
-beginning of each month from January 1981 (month 1) through December 2014 (month 408)
+A data frame with 408 observations on the following variables.
+  \itemize{
+    \item{\code{Month}} (months since January 1981)
+    \item{\code{AdjClose}} (adjusted closing price of Apple Inc. stock)
+  }
 }
 \examples{
 data(APPLStockMontly)

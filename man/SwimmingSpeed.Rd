@@ -4,11 +4,6 @@
 \name{SwimmingSpeed}
 \alias{SwimmingSpeed}
 \title{Swimming Speed of Various Animals}
-\format{A data frame with 17 observations on the following variables.
-  \itemize{
-    \item{\code{Length}} {of animal in centimeters}
-    \item{\code{Speed}} {swimming speed of animal in centimeters per second}
-  }}
 \source{
 Swimming speed and length of animals from page 152. McMahon, Thomas A., and John Tyler Bonner.
 \emph{On Size and Life}. New York: Scientific American Library, 1983.
@@ -17,12 +12,15 @@ Swimming speed and length of animals from page 152. McMahon, Thomas A., and John
 data(SwimmingSpeed)
 }
 \description{
-A dataset containing the swimming speed in centimeters per second as a function of the length
+A data set containing the swimming speed in centimeters per second as a function of the length
 in centimeters of various animals
 }
 \details{
-This dataset contains the swimming speed in centimeters per second as a function of the length
-in centimeters of various animals.
+A data frame with 17 observations on the following variables.
+  \itemize{
+    \item{\code{Length}} (in centimeters)
+    \item{\code{Speed}} (swimming speed of animal in centimeters per second)
+  }
 }
 \examples{
 data(SwimmingSpeed)

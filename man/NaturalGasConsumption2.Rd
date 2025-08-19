@@ -4,11 +4,6 @@
 \name{NaturalGasConsumption2}
 \alias{NaturalGasConsumption2}
 \title{US Natural Gas Consumption}
-\format{A data frame with 67 observations on the following variables.
-  \itemize{
-    \item{\code{Year}} {}
-    \item{\code{CubicFeet}} {millions of cubic feet of natural gas consumed}
-  }}
 \source{
 Natural Gas from U.S. Energy Information Administration. Accessed on June 9, 2016.
 }
@@ -16,12 +11,15 @@ Natural Gas from U.S. Energy Information Administration. Accessed on June 9, 201
 data(NaturalGasConsumption2)
 }
 \description{
-A dataset containing the total number of millions of cubic feet of natural gas consumed
+A data set containing the total number of millions of cubic feet of natural gas consumed
 in the United States from 1950 to 1970.
 }
 \details{
-This dataset contains the total number of millions of cubic feet of natural gas
-consumed in the United States from 1950 to 1970.
+A data frame with 67 observations on the following variables.
+  \itemize{
+    \item{\code{Year}}
+    \item{\code{CubicFeet}} (in millions of cubic feet)
+  }
 }
 \examples{
 data(NaturalGasConsumption2)

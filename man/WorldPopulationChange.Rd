@@ -4,11 +4,6 @@
 \name{WorldPopulationChange}
 \alias{WorldPopulationChange}
 \title{World Population Change}
-\format{A data frame with 10 observations on the following variables.
-  \itemize{
-    \item{\code{Year}} {}
-    \item{\code{Growth}} {Percent growth of worlds population}
-  }}
 \source{
 World population from the U.S. Census Bureau. Accessed on June 3, 2016.
 }
@@ -16,12 +11,15 @@ World population from the U.S. Census Bureau. Accessed on June 3, 2016.
 data(WorldPopulationChange)
 }
 \description{
-A dataset containing the percent growth of the world’s population as a function of the year
+A data set containing the percent growth of the world’s population as a function of the year
 from 1970 to 2015.
 }
 \details{
-This dataset contains the percent growth of the world’s population as a function of the year
-from 1970 to 2015.
+A data frame with 10 observations on the following variables.
+  \itemize{
+    \item{\code{Year}}
+    \item{\code{Growth}} (Percent growth of worlds population)
+  }
 }
 \examples{
 data(WorldPopulationChange)

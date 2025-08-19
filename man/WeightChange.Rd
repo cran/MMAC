@@ -4,11 +4,6 @@
 \name{WeightChange}
 \alias{WeightChange}
 \title{Weight Change during Pregnancy}
-\format{A data frame with 129 observations on the following variables.
-  \itemize{
-    \item{\code{Day}} {since beginning of second trimester}
-    \item{\code{Weight}} {in pounds}
-  }}
 \source{
 Personal data collection
 }
@@ -16,12 +11,15 @@ Personal data collection
 data(WeightChange)
 }
 \description{
-A dataset containing the change in one woman’s weight during a pregnancy from the beginning of
+A data set containing the change in one woman’s weight during a pregnancy from the beginning of
 her second trimester until birth.
 }
 \details{
-This dataset contains the change in one woman’s weight during a pregnancy from the beginning of
-her second trimester until birth.
+A data frame with 129 observations on the following variables.
+  \itemize{
+    \item{\code{Day}} (since beginning of second trimester)
+    \item{\code{Weight}} (in pounds)
+  }
 }
 \examples{
 data(WeightChange)

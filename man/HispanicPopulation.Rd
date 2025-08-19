@@ -4,11 +4,6 @@
 \name{HispanicPopulation}
 \alias{HispanicPopulation}
 \title{Latino's Living in the United States}
-\format{A data frame with 5 observations on the following variables.
-  \itemize{
-    \item{\code{Year}} {}
-    \item{\code{People}} {number of Latino's (in millions)}
-  }}
 \source{
 The U.S. Hispanic population has increased sixfold since 1970. Accessed on June 16, 2014.
 }
@@ -16,10 +11,14 @@ The U.S. Hispanic population has increased sixfold since 1970. Accessed on June 
 data(HispanicPopulation)
 }
 \description{
-A dataset containing the number of Latino's living in the United States as a function of the year.
+A data set containing the number of Latino's living in the United States as a function of the year.
 }
 \details{
-This dataset contains the number of Latino's living in the United States as a function of the year.
+A data frame with 5 observations on the following variables.
+  \itemize{
+    \item{\code{Year}}
+    \item{\code{People}} (in millions)
+  }
 }
 \examples{
 data(HispanicPopulation)

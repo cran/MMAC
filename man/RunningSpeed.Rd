@@ -4,11 +4,6 @@
 \name{RunningSpeed}
 \alias{RunningSpeed}
 \title{Running Speed of Animals}
-\format{A data frame with 12 observations on the following variables.
-  \itemize{
-    \item{\code{Length}} {of animal in centimeters}
-    \item{\code{Speed}} {of animal in centimeters per second}
-  }}
 \source{
 Running speed and length of animals from page 152. McMahon, Thomas A., and John Tyler Bonner.
 \emph{On Size and Life}. New York: Scientific American Library, 1983.
@@ -17,12 +12,15 @@ Running speed and length of animals from page 152. McMahon, Thomas A., and John 
 data(RunningSpeed)
 }
 \description{
-A dataset containing the running speed in centimeters per second as a function of the
+A data set containing the running speed in centimeters per second as a function of the
 length in centimeters of various animals.
 }
 \details{
-This dataset contains the running speed in centimeters per second as a function of the
-length in centimeters of various animals.
+A data frame with 12 observations on the following variables.
+  \itemize{
+    \item{\code{Length}} (in centimeters)
+    \item{\code{Speed}} (in centimeters per second)
+  }
 }
 \examples{
 data(RunningSpeed)

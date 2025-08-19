@@ -4,11 +4,6 @@
 \name{PopulationBelgium}
 \alias{PopulationBelgium}
 \title{Population of Belgium}
-\format{A data frame with 18 observations on the following variables.
-  \itemize{
-    \item{\code{Year}} {}
-    \item{\code{People}} {Population of Belgium in millions of people}
-  }}
 \source{
 Population of Belgium in millions of people by year from “Population of the Netherlands,
 Belgium, and Luxembourg.” Accessed on June 26, 2014.
@@ -17,10 +12,14 @@ Belgium, and Luxembourg.” Accessed on June 26, 2014.
 data(PopulationBelgium)
 }
 \description{
-A dataset containing the population of Belgium in millions of people.
+A data set containing the population of Belgium in millions of people.
 }
 \details{
-This dataset contains the population of Belgium in millions of people.
+A data frame with 18 observations on the following variables.
+  \itemize{
+    \item{\code{Year}}
+    \item{\code{People}} (in millions of people)
+  }
 }
 \examples{
 data(PopulationBelgium)

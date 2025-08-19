@@ -4,11 +4,6 @@
 \name{HSDropoutRate}
 \alias{HSDropoutRate}
 \title{High School Dropout Rate}
-\format{A data frame with 43 observations on the following variables.
-  \itemize{
-    \item{\code{Year}} {}
-    \item{\code{Rate}} {high school dropout rate}
-  }}
 \source{
 The high school dropout rate in the United States from 1970 through 2012 from “Percentage of high school
 dropouts among persons 16 to 24 years old.” Accessed on June 22, 2015.
@@ -17,10 +12,14 @@ dropouts among persons 16 to 24 years old.” Accessed on June 22, 2015.
 data(HSDropoutRate)
 }
 \description{
-A dataset containing the high school dropout rate in the United States from 1970 through 2012.
+A data set containing the high school dropout rate in the United States from 1970 through 2012.
 }
 \details{
-This dataset contains the high school dropout rate in the United States from 1970 through 2012.
+A data frame with 43 observations on the following variables.
+  \itemize{
+    \item{\code{Year}}
+    \item{\code{Rate}} (high school dropout rate)
+  }
 }
 \examples{
 data(HSDropoutRate)

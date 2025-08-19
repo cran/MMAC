@@ -4,11 +4,6 @@
 \name{BodyMassMetabolicRate}
 \alias{BodyMassMetabolicRate}
 \title{Closing Stock Price of Apple Inc.}
-\format{A data frame with 1498 observations on the following variables.
-  \itemize{
-    \item{\code{Mass}} {in kilograms}
-    \item{\code{Rate}} {field metabolic rate in kilojoules per day}
-  }}
 \source{
 Hudson, L. N., Isaac, N. J. B., Reuman, D. C. (2013), The relationship between body mass and
 field metabolic rate among individual birds and mammals. \emph{Journal of Ecology}, 82: 1009-1020.
@@ -18,12 +13,15 @@ doi: 10.1111/1365-2656.12086.
 data(BodyMassMetabolicRate)
 }
 \description{
-A dataset containing the field metablic rate of individual birds and mammals (measured in
+A data set containing the field metablic rate of individual birds and mammals (measured in
 kilojoules per day) as a function of its body mass (in kilograms)
 }
 \details{
-This dataset contains the field metablic rate of individual birds and mammals (measured in
-kilojoules per day) as a function of its body mass (in kilograms)
+A data frame with 1498 observations on the following variables.
+  \itemize{
+    \item{\code{Mass}} (in kilograms)
+    \item{\code{Rate}} (field metabolic rate in kilojoules per day)
+  }
 }
 \examples{
 data(BodyMassMetabolicRate)

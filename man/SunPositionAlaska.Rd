@@ -4,11 +4,6 @@
 \name{SunPositionAlaska}
 \alias{SunPositionAlaska}
 \title{Sun Position in Anchorage, Alaska}
-\format{A data frame with 25 observations on the following variables.
-  \itemize{
-    \item{\code{Time}} {hours since midnight on June 29, 2014}
-    \item{\code{Position}} {Altitude angle of the sun}
-  }}
 \source{
 Altitude angle of the sun in Anchorage, Alaska, each hour from midnight on June 29, 2014
 (hour 0) until midnight on June 30, 2014 (hour 24) from “Sun & moon times, Anchorage, Alaska,
@@ -18,12 +13,15 @@ U.S.A.” Accessed on July 1, 2014.
 data(SunPositionAlaska)
 }
 \description{
-A dataset containing the altitude angle of the sun in Anchorage, Alaska, each hour from
+A data set containing the altitude angle of the sun in Anchorage, Alaska, each hour from
 midnight on June 29, 2014 (hour 0) until midnight on June 30, 2014 (hour 24).
 }
 \details{
-This dataset contains the altitude angle of the sun in Anchorage, Alaska, each hour from
-midnight on June 29, 2014 (hour 0) until midnight on June 30, 2014 (hour 24).
+A data frame with 25 observations on the following variables.
+  \itemize{
+    \item{\code{Time}} (hours since midnight on June 29, 2014)
+    \item{\code{Position}} (Altitude angle of the sun)
+  }
 }
 \examples{
 data(SunPositionAlaska)

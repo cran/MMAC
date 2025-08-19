@@ -4,11 +4,6 @@
 \name{Mortgage15YrAnnual}
 \alias{Mortgage15YrAnnual}
 \title{15 Year Annual Mortgage Rates}
-\format{A data frame with 23 observations on the following variables.
-  \itemize{
-    \item{\code{Year}} {}
-    \item{\code{Rate}} {interest rate on 15-year, fixed-rate conventional home mortgage}
-  }}
 \source{
 Interest rates on 15-year, fixed-rate conventional home mortgages annually from 1992 to 2014 from
 “Mortgage Interest Rates History.” Accessed on June 22, 2015.
@@ -17,12 +12,15 @@ Interest rates on 15-year, fixed-rate conventional home mortgages annually from 
 data(Mortgage15YrAnnual)
 }
 \description{
-A dataset containing interest rates on 15-year, fixed-rate conventional home mortgages annually from
+A data set containing interest rates on 15-year, fixed-rate conventional home mortgages annually from
 1992 to 2014.
 }
 \details{
-This dataset contains the interest rates on 15-year, fixed-rate conventional home mortgages annually from
-1992 to 2014.
+A data frame with 23 observations on the following variables.
+  \itemize{
+    \item{\code{Year}}
+    \item{\code{Rate}} (interest rate on 15-year, fixed-rate conventional home mortgage)
+  }
 }
 \examples{
 data(Mortgage15YrAnnual)

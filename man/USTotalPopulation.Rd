@@ -4,12 +4,6 @@
 \name{USTotalPopulation}
 \alias{USTotalPopulation}
 \title{Total U.S. Population}
-\format{A data frame with 9 observations on the following variables.
-  \itemize{
-    \item{\code{Year}} {}
-    \item{\code{Population}} {US population in millions of people}
-    \item{\code{RelGrowth}} {Relative growth rate of the US population}
-  }}
 \source{
 U.S. census data for 1950–2000 is from “Measuring America: The Decennial Censuses from 1790 to
 2000.” Accessed on June 9, 2016.
@@ -18,12 +12,16 @@ U.S. census data for 1950–2000 is from “Measuring America: The Decennial Cen
 data(USTotalPopulation)
 }
 \description{
-A dataset containing the U.S. population in millions of people each decade from 1900 to 2010
+A data set containing the U.S. population in millions of people each decade from 1900 to 2010
 based on the census.
 }
 \details{
-This dataset contains the U.S. population in millions of people each decade from 1900 to 2010
-based on the census.
+A data frame with 9 observations on the following variables.
+  \itemize{
+    \item{\code{Year}} {}
+    \item{\code{Population}} (US population in millions of people)
+    \item{\code{RelGrowth}} (Relative growth rate of the US population)
+  }
 }
 \examples{
 data(USTotalPopulation)

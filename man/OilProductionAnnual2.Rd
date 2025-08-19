@@ -4,11 +4,6 @@
 \name{OilProductionAnnual2}
 \alias{OilProductionAnnual2}
 \title{Annual US Oil Production}
-\format{A data frame with 114 observations on the following variables.
-  \itemize{
-    \item{\code{Year}} {}
-    \item{\code{Barrels}} {of oil produced (in thousands)}
-  }}
 \source{
 U.S. field production of crude oil in billions of barrels from the U.S. Energy Information
 Administration from “U.S. Field Production of Crude Oil.” Accessed on July 3, 2014.
@@ -17,12 +12,15 @@ Administration from “U.S. Field Production of Crude Oil.” Accessed on July 3
 data(OilProductionAnnual2)
 }
 \description{
-A subset of the dataset containing the number of barrels (in thousands) of crude oil produced per year
+A subset of the data set containing the number of barrels (in thousands) of crude oil produced per year
 in the United States.
 }
 \details{
-This dataset contains the number of barrels (in thousands) of crude oil produced per year in
-the United States
+A data frame with 114 observations on the following variables.
+  \itemize{
+    \item{\code{Year}}
+    \item{\code{Barrels}} (in thousands)
+  }
 }
 \examples{
 data(OilProductionAnnual2)

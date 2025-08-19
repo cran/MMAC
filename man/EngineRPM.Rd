@@ -4,11 +4,6 @@
 \name{EngineRPM}
 \alias{EngineRPM}
 \title{RPM of Different Engines}
-\format{A data frame with 39 observations on the following variables.
-  \itemize{
-    \item{\code{Mass}} {in kilograms}
-    \item{\code{RPM}}
-  }}
 \source{
 Revolutions per minute of engines as a function of engine mass from pages 60-61. McMahon,
 Thomas A., and John Tyler Bonner. \emph{On Size and Life}. New York: Scientific American
@@ -18,10 +13,14 @@ Library, 1983.
 data(EngineRPM)
 }
 \description{
-A dataset containing the revolutions per minute (RPM) and mass of different engines.
+A data set containing the revolutions per minute (RPM) and mass of different engines.
 }
 \details{
-This dataset contains the revolutions per minute (RPM) and mass of different engines.
+A data frame with 39 observations on the following variables.
+  \itemize{
+    \item{\code{Mass}} (in kilograms)
+    \item{\code{RPM}}
+  }
 }
 \examples{
 data(EngineRPM)

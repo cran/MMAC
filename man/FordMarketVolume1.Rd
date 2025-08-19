@@ -4,11 +4,6 @@
 \name{FordMarketVolume1}
 \alias{FordMarketVolume1}
 \title{Ford Motors Market Volume}
-\format{A data frame with 7 observations on the following variables.
-  \itemize{
-    \item{\code{Date}} {quarter since January 1, 2007}
-    \item{\code{Volume}} {number of shares of Ford Motor Company stock shares}
-  }}
 \source{
 Ford Motor Company (F) stock market value quarterly in U.S. dollars. Accessed on July 7, 2014
 }
@@ -16,12 +11,15 @@ Ford Motor Company (F) stock market value quarterly in U.S. dollars. Accessed on
 data(FordMarketVolume1)
 }
 \description{
-A subset of the dataset containing the volume of Ford Motor Company stock shares traded per
+A subset of the data set containing the volume of Ford Motor Company stock shares traded per
 quarter since January 1, 2007.
 }
 \details{
-This dataset contains the volume of Ford Motor Company stock shares traded per
-quarter since January 1, 2007.
+A data frame with 7 observations on the following variables.
+  \itemize{
+    \item{\code{Date}} (quarter since January 1, 2007)
+    \item{\code{Volume}} (number of shares of Ford Motor Company stock shares)
+  }
 }
 \examples{
 data(FordMarketVolume1)

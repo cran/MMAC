@@ -4,11 +4,6 @@
 \name{MaunaLoaCO2}
 \alias{MaunaLoaCO2}
 \title{Atmospheric Carbon Dioxide from Mauna Loa}
-\format{A data frame with 49 observations on the following variables.
-  \itemize{
-    \item{\code{Year}} {}
-    \item{\code{Average}} {carbon dioxide in ppmv}
-  }}
 \source{
 Atmospheric carbon dioxide from Mauna Loa in ppmv (parts per million by volume) as a function of
 years from 1958 to 2008 from “Atmospheric Carbon Dioxide Record from Mauna Loa.” Accessed on
@@ -18,12 +13,15 @@ August 19, 2015.
 data(MaunaLoaCO2)
 }
 \description{
-A dataset containing the atmospheric carbon dioxide from Mauna Loa in ppmv (or parts per million
+A data set containing the atmospheric carbon dioxide from Mauna Loa in ppmv (or parts per million
 by volume) as a function of years from 1958 to 2008.
 }
 \details{
-This dataset contains the atmospheric carbon dioxide from Mauna Loa in ppmv (or parts per million
-by volume) as a function of years from 1958 to 2008.
+A data frame with 49 observations on the following variables.
+  \itemize{
+    \item{\code{Year}}
+    \item{\code{Average}} (in ppmv)
+  }
 }
 \examples{
 data(MaunaLoaCO2)

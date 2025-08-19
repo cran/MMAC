@@ -4,11 +4,6 @@
 \name{GenderRatio1}
 \alias{GenderRatio1}
 \title{Gender Ratio in World Population}
-\format{A data frame with 9 observations on the following variables.
-  \itemize{
-    \item{\code{Year}} {}
-    \item{\code{Ratio}} {number of males per 100 females}
-  }}
 \source{
 The global gender ratio based on the number of males per 100 females by year from
 “World Population Prospects, the 2012 Revision” by the United Nations Department of
@@ -18,10 +13,14 @@ Economic and Social Affairs. Accessed on June 25, 2014.
 data(GenderRatio1)
 }
 \description{
-A subset of the dataset containing the number of males per 100 females in the word population.
+A subset of the data set containing the number of males per 100 females in the word population.
 }
 \details{
-This dataset contains the number of males per 100 females in the world population as a function of the year
+A data frame with 9 observations on the following variables.
+  \itemize{
+    \item{\code{Year}}
+    \item{\code{Ratio}} (number of males per 100 females)
+  }
 }
 \examples{
 data(GenderRatio1)

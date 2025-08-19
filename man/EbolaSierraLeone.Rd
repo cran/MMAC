@@ -4,11 +4,6 @@
 \name{EbolaSierraLeone}
 \alias{EbolaSierraLeone}
 \title{Ebola Cases in Sierra Leone, Africa}
-\format{A data frame with 110 observations on the following variables.
-  \itemize{
-    \item{\code{Day}} {since May 1, 2014}
-    \item{\code{Cases}} {cummulative number of ebola cases}
-  }}
 \source{
 Ebola Outbreak in West Africa from Centers for Disease Control and Preven- tion. Accessed on
 June 2, 2016.
@@ -17,12 +12,15 @@ June 2, 2016.
 data(EbolaSierraLeone)
 }
 \description{
-A dataset containing the cummulative number of ebola cases in Sierra Leone, Africa from
+A data set containing the cummulative number of ebola cases in Sierra Leone, Africa from
 May 1, 2014 to December 16, 2015
 }
 \details{
-This dataset contains the cummulative number of ebola cases in Sierra Leone, Africa from
-May 1, 2014 to December 16, 2015
+A data frame with 110 observations on the following variables.
+  \itemize{
+    \item{\code{Day}} (since May 1, 2014)
+    \item{\code{Cases}} (cummulative number of ebola cases)
+  }
 }
 \examples{
 data(EbolaSierraLeone)

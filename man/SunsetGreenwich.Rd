@@ -4,11 +4,6 @@
 \name{SunsetGreenwich}
 \alias{SunsetGreenwich}
 \title{Sunset in Greenwich, England}
-\format{A data frame with 25 observations on the following variables.
-  \itemize{
-    \item{\code{Month}} {from January 2010}
-    \item{\code{Minutes}} {minutes after 3 p.m.}
-  }}
 \source{
 Number of minutes after 3 p.m. until sunset in Greenwich, England since January 2010 from
 “Sunrise and sunset times in Greenwich Borough.” Accessed on July 14, 2014.
@@ -17,12 +12,15 @@ Number of minutes after 3 p.m. until sunset in Greenwich, England since January 
 data(SunsetGreenwich)
 }
 \description{
-A dataset containing the number of minutes after 3 p.m. until sunset at Greenwich, England
+A data set containing the number of minutes after 3 p.m. until sunset at Greenwich, England
 since January 2010.
 }
 \details{
-This dataset contains the number of minutes after 3 p.m. until sunset at Greenwich, England
-since January 2010.
+A data frame with 25 observations on the following variables.
+  \itemize{
+    \item{\code{Month}} (from January 2010)
+    \item{\code{Minutes}} (minutes after 3 p.m.)
+  }
 }
 \examples{
 data(SunsetGreenwich)

@@ -4,12 +4,6 @@
 \name{BlastData}
 \alias{BlastData}
 \title{Blast Radius of Trinity Test}
-\format{A data frame with 23 observations on the following variables.
-  \itemize{
-    \item{\code{X}} {observation number}
-    \item{\code{time}} time in seconds
-    \item{\code{radius}} {radius of blast in meters}
-  }}
 \source{
 Taylor, G. “The Formation of a Blast Wave by a Very Intense Explosion. II. The Atomic Explosion
 of 1945.” \emph{Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences},
@@ -19,12 +13,15 @@ of 1945.” \emph{Proceedings of the Royal Society A: Mathematical, Physical and
 data(BlastData)
 }
 \description{
-A dataset containing the blast radius (in meters) as a function of time (in seconds) for the Trinity
+A data set containing the blast radius (in meters) as a function of time (in seconds) for the Trinity
 test conducted by the United States in White Sands, New Mexico in 1945.
 }
 \details{
-A dataset containing the blast radius (in meters) as a function of time (in seconds) for the Trinity
-test conducted by the United States in White Sands, New Mexico in 1945.
+A data frame with 23 observations on the following variables.
+  \itemize{
+    \item{\code{time}} (in seconds)
+    \item{\code{radius}} (in meters)
+  }
 }
 \examples{
 data(BlastData)

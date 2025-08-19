@@ -4,11 +4,6 @@
 \name{USCO2Emissions}
 \alias{USCO2Emissions}
 \title{US CO2 Emissions}
-\format{A data frame with 29 observations on the following variables.
-  \itemize{
-    \item{\code{Year}} {}
-    \item{\code{kT}} {}
-  }}
 \source{
 United States carbon dioxide emissions in kT annually from 1960 to 2010 according to the
 World Bank at “Data | United States.” Accessed on July 10, 2014.
@@ -17,12 +12,15 @@ World Bank at “Data | United States.” Accessed on July 10, 2014.
 data(USCO2Emissions)
 }
 \description{
-A dataset containing U.S. carbon dioxide emissions in kT (energy) annually from 1980 to 2008
+A data set containing U.S. carbon dioxide emissions in kT (energy) annually from 1980 to 2008
 according to the World Bank.
 }
 \details{
-This dataset contains U.S. carbon dioxide emissions in kT (energy) annually from 1980 to 2008
-according to the World Bank.
+A data frame with 29 observations on the following variables.
+  \itemize{
+    \item{\code{Year}}
+    \item{\code{kT}}
+  }
 }
 \examples{
 data(USCO2Emissions)

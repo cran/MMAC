@@ -4,11 +4,6 @@
 \name{PollenCountLA}
 \alias{PollenCountLA}
 \title{Pollen Count in Los Angeles, CA}
-\format{A data frame with 30 observations on the following variables.
-  \itemize{
-    \item{\code{Date}} {since April 1, 2014}
-    \item{\code{Count}} {Pollen count in Los Angeles, CA}
-  }}
 \source{
 Three-year average monthly pollen count in Los Angeles, California from “Historic Allergy Index
 for 90001 | Pollen.com.” Accessed on June 25, 2014.
@@ -17,10 +12,14 @@ for 90001 | Pollen.com.” Accessed on June 25, 2014.
 data(PollenCountLA)
 }
 \description{
-A dataset containing the pollen count each day in Los Angeles from April to July of 2014.
+A data set containing the pollen count each day in Los Angeles from April to July of 2014.
 }
 \details{
-This dataset contains the pollen count each day in Los Angeles from April to July of 2014.
+A data frame with 30 observations on the following variables.
+  \itemize{
+    \item{\code{Date}} (since April 1, 2014)
+    \item{\code{Count}} (Pollen count in Los Angeles, CA)
+  }
 }
 \examples{
 data(PollenCountLA)
